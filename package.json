@@ -1,0 +1,18 @@
+{
+  "name": "votingsystem",
+  "version": "1.0.0",
+  "description": "This project implements a comprehensive decentralized voting system on the Ethereum blockchain that incorporates economic incentives through staking, automatic redistribution of stakes based on voting outcomes, and privacy-preserving user management. The system enables:",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node": "anvil --rpc-url https://eth.merkle.io",
+    "contract": "forge create --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 src/VottingSystem.sol:VottingSystem --broadcast"
+  },
+  "author": "",
+  "license": "ISC"
+}

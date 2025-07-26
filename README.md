@@ -127,8 +127,8 @@ The React-based web application provides a user-friendly interface for:
 4. npm run-script "name of the Script"
 ### Frontend Setup
 ```bash
-git clone https://github.com/your-repo/decentralized-voting-system.git
-cd decentralized-voting-system/frontend
+git clone https://github.com/RoxyBlockChain/VotingSystem.git
+cd dapp
 npm install
 npm start
 ```
